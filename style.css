@@ -21,19 +21,28 @@ div {
     padding: 15px;
 }
 
+h1 {
+    margin-top: 5%;
+    text-align: center;
+    width: 25%;
+    border-radius: 10px;
+    position: relative;
+    margin: auto
+}
+
 a {
     text-decoration: none;
 }
 
 #cv {
     text-align: center;
-    margin-top: 50%;
     text-decoration: none;
+    margin-top: 10%;
 }
 
 #minisite {
     text-align: center;
-    margin-top: 75%;
+    margin-top: 10%;
 }
 
 .ombre {
