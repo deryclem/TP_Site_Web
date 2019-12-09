@@ -1,0 +1,72 @@
+body {
+    max-width: 768px;
+}
+
+header {
+    background-color: #f8c291;
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* --- Menu TOP --- */
+header ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 25px;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none
+}
+
+header li a:hover {
+    background-color: #111;
+}
+
+header .currentPage {
+    background-color: #222
+}
+
+/* --- Fin menu TOP --- */
+
+/* --- Menu Sidebar --- */
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 100px
+}
+
+.sidebar li {
+    float: left;
+}
+
+.sidebar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none
+}
+
+.sidebar li a:hover {
+    background-color: #111;
+}
+
+.sidebar .currentPage {
+    background-color: #222
+}
+
+/* --- Fin menu Sidebar --- */

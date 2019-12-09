@@ -4,6 +4,7 @@ body {
 
 header {
     max-height: 10%;
+    height: 10%;
     width: 100%;
     position: relative;
     margin-bottom: 2%;
@@ -22,12 +23,15 @@ header img {
 
 .logo {
     margin-left: 5%;
+    max-width: 10%;
+    height: auto
 }
 
 .image {
     margin-right: 5%;
     position: fixed;
     max-height: 10%;
+    color: blue;
 }
 
 .menus {
